@@ -1,0 +1,4 @@
+P(CarWontStart | Dipstick=false, Lights=true, OilLight=true, FuelGauge=true)
+
+P(AlternatorBroken | CarWontStart=true, Dipstick=true, Lights=false, BatteryMeter=false)
+
